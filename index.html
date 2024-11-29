@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE REGISTRO</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form>
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <input type="text" placeholder="Nombre"><br>
+        <input type="text" placeholder="Apellido"><br>  
+        <input type="text" placeholder="Dirección"><br>  
+        <input type="number" placeholder="Número de teléfono"><br>  
+        <input type="email" placeholder="Correo"><br>
+            <select id="pais" name="pais">
+            <option value="colombia">Elige un país</option>
+            <option value="colombia">Colombia</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="peru">Perú</option>
+            <option value="chile">Chile</option>
+            <option value="brasil">Brasil</option>
+            </select><br>
+        
+            <select id="departamento" name="departamento">
+            <option value="antioquia">Elige un departamento</option>
+            <option value="antioquia">Antioquia</option>
+            <option value="cundinamarca">Cundinamarca</option>
+            <option value="atlantico">Atlántico</option>
+            <option value="Magdalena">Magdalena</option>
+            <option value="Guajira">La Guajira</option>
+            </select><br>
+        <textarea type="textarea" name="información" id="" placeholder="Realiza una descripción personal (max 300 caracteres)"></textarea><br>
+        <select id="carrera" name="carrera">
+            <option value="carrera">¿A qué carrera deseas inscribirte?</option>
+            <option value="web">Desarrollo Web</option>
+            <option value="data">Ciencia de datos</option>
+            <option value="backend">Backend</option>
+            <option value="frontend">Frontend</option>
+            <option value="videogames">Desarrollo de Videojuegos</option>
+            </select><br>
+        <label for="">Modalidad</label><br>
+        <input type="radio" id="presencial" value="modalidad">
+        <label for="presencial">Presencial</label><br>
+        <input type="radio" id="virtual" name="modalidad" value="virtual">
+        <label for="css">Virtual</label><br>
+        <label for="">¿Estás trabajando?</label><br>
+        <input type="radio" id="si" name="trabajando" value="si">
+        <label for="presencial">Sí</label><br>
+        <input type="radio" id="no" name="trabajando" value="no">
+        <label for="css">No</label><br>
+        
+        <input type="submit" class="btn" value="Enviar">            
+    </form>
+
+    
+</body>
+</html>
